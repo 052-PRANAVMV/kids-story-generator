@@ -1,33 +1,81 @@
-### **Week 1: Setup, Planning, and Photo Analysis Module**
+### **Week 1: Setup and Photo Analysis Module Development**
 **Tasks:**
-- Finalize requirements and project architecture.
-- Set up development environment and version control.
-- Implement the frontend for image upload and interaction.
-- Build the backend API to handle image input using FastAPI or Flask.
-- Integrate computer vision models (OpenCV or TensorFlow) for feature extraction.
+- **Project Setup:** Create project directory and initialize MERN stack with React, Express, and MongoDB.
+- **Environment Setup:** Install essential packages and configure backend (Node.js, Express.js) and frontend (React.js).
+- **Database Setup:** Connect MongoDB Atlas to the backend using Mongoose.
+- **Photo Analysis:** Create API for photo upload and store metadata in MongoDB.
+- **AI Microservice:** Develop Python FastAPI service for photo feature extraction.
 
+**Deliverable:**  
+Photo analysis service integrated with MERN backend.
 
-### **Week 2: Story Generation and Integration**
+---
+
+### **Week 2: Story Generation and Backend Integration**
 **Tasks:**
-- Set up Hugging Face Transformers for text generation.
-- Train or fine-tune a model for creative story output.
-- Develop logic to map photo features to story elements.
-- Build backend API for story generation and integrate it with the photo analysis module.
+- **NLP Model Integration:** Set up Hugging Face Transformers on the AI microservice.
+- **Story Personalization:** Map extracted photo features to contextual story elements.
+- **Backend APIs:** Create RESTful APIs for communication between Node.js and the AI microservice.
+- **Frontend Integration:** Build React components for user photo upload and story display.
 
+**Deliverable:**  
+Photo analysis and personalized story generation pipeline integrated with the frontend.
 
-### **Week 3: Illustration Generation and User Interface**
+---
+
+### **Week 3: Illustration Generation and Full System Integration**
 **Tasks:**
-- Implement Stable Diffusion or DALL-E for illustration generation.
-- Link generated illustrations to corresponding story sections.
-- Develop an interactive user interface using ReactJS.
-- Ensure smooth communication between frontend and backend.
+- **Image Generation:** Set up Stable Diffusion or DALL-E models in the AI microservice.
+- **API Integration:** Create endpoints in the backend for AI-generated illustrations.
+- **Frontend UI Enhancements:** Display illustrations alongside stories in an interactive format.
+- **Secure Data Handling:** Implement user authentication and secure file handling.
 
+**Deliverable:**  
+Illustrated story generation integrated with MERN stack.
 
-### **Week 4: Integration, Testing, Deployment, and Final Documentation**
+---
+
+### **Week 4: Testing, Deployment, and Final Documentation**
 **Tasks:**
-- Conduct integration and system testing for functionality and performance.
-- Optimize AI models and backend API endpoints.
-- Deploy the application on AWS or Firebase.
-- Ensure user privacy compliance and secure handling of photos.
-- Write project documentation and prepare a final presentation.
+- **Integration Testing:** Test the entire system for functional and performance issues.
+- **Deployment:** Deploy the backend (Node.js) on **Heroku** or **Render**, and the frontend (React.js) on **Vercel**.
+- **AI Microservice Deployment:** Deploy the Python FastAPI service on **AWS EC2**.
+- **Security Compliance:** Ensure data privacy measures for photo uploads.
+- **Documentation:** Write user and technical documentation.
+
+**Deliverable:**  
+Fully deployed, documented, and tested Kids Story Generator project.
+
+---
+
+### **Tech Stack Breakdown**
+#### **Frontend**
+- **React.js:** For UI development
+- **Axios:** For API communication
+- **Tailwind CSS:** For styling
+
+#### **Backend**
+- **Node.js:** Backend runtime
+- **Express.js:** API framework
+- **Mongoose:** MongoDB integration
+
+#### **Database**
+- **MongoDB Atlas:** Cloud database for secure data storage
+
+#### **AI Microservice**
+- **FastAPI:** Python-based service for AI models
+- **Hugging Face Transformers:** NLP tasks
+- **Stable Diffusion / DALL-E:** Illustration generation
+- **TensorFlow / PyTorch:** Computer vision models
+
+#### **Deployment Tools**
+- **Frontend:** Vercel
+- **Backend:** Heroku or Render
+- **AI Microservice:** AWS EC2 or Lambda
+- **Database:** MongoDB Atlas
+
+#### **Additional Tools**
+- **GitHub:** Version control
+- **Postman:** API testing
+- **Multer:** File upload handling in Node.js
 
