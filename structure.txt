@@ -1,0 +1,40 @@
+KidsStoryGenerator/
+├── backend/               # Backend server with Express.js and MongoDB
+│   ├── controllers/        # API business logic
+│   │   └── storyController.js
+│   ├── models/             # MongoDB schema definitions
+│   │   └── Story.js
+│   ├── routes/             # API route definitions
+│   │   └── storyRoutes.js
+│   ├── middlewares/        # Custom middlewares
+│   │   └── authMiddleware.js
+│   ├── config/             # Environment configurations
+│   │   └── dbConfig.js
+│   ├── uploads/            # Temporary storage for photo uploads
+│   ├── server.js           # Main server entry point
+│   └── package.json        # Backend dependencies
+├── frontend/               # Frontend user interface with React.js
+│   ├── public/             # Static assets
+│   ├── src/                # Source files
+│   │   ├── components/     # React components
+│   │   │   ├── PhotoUpload.js
+│   │   │   ├── StoryDisplay.js
+│   │   │   └── Illustration.js
+│   │   ├── pages/          # Application pages
+│   │   │   └── Home.js
+│   │   ├── services/       # API communication logic
+│   │   │   └── apiService.js
+│   │   ├── App.js          # Main React component
+│   │   └── index.js        # Application entry point
+│   ├── package.json        # Frontend dependencies
+│   └── tailwind.config.js  # Tailwind CSS configuration
+├── ai-microservice/        # AI model service using FastAPI
+│   ├── models/             # Pretrained models for NLP and image generation
+│   ├── app.py              # FastAPI entry point
+│   ├── requirements.txt    # Python dependencies
+│   ├── utils/              # Helper functions
+│   │   └── image_processing.py
+│   └── story_generator.py  # AI story generation logic
+├── .env                    # Environment variables for backend
+├── README.md               # Project documentation
+└── package.json            # Root dependencies
