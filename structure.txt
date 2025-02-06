@@ -13,7 +13,7 @@ KidsStoryGenerator/
 │   ├── uploads/            # Temporary storage for photo uploads
 │   ├── server.js           # Main server entry point
 │   └── package.json        # Backend dependencies
-├── frontend/               # Frontend user interface with React.js
+├── frontend/               # Frontend user interface with React.js and Bootstrap
 │   ├── public/             # Static assets
 │   ├── src/                # Source files
 │   │   ├── components/     # React components
@@ -27,7 +27,7 @@ KidsStoryGenerator/
 │   │   ├── App.js          # Main React component
 │   │   └── index.js        # Application entry point
 │   ├── package.json        # Frontend dependencies
-│   └── tailwind.config.js  # Tailwind CSS configuration
+│   └── bootstrap.min.css   # Bootstrap CSS file
 ├── ai-microservice/        # AI model service using FastAPI
 │   ├── models/             # Pretrained models for NLP and image generation
 │   ├── app.py              # FastAPI entry point
